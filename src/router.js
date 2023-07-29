@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'; 
-import Home from './components/Home.vue';
-import Create from './components/Create.vue';
-import Message from './components/Message.vue';
-import Content from './components/Content.vue';
+import Home from './views/Home.vue';
+import Create from './views/Create.vue';
+import Message from './views/Message.vue';
+import Content from './views/Content.vue';
 
 export default createRouter({
   history: createWebHistory(),
